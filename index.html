@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML5 in CSS Saits</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <header>
+    <div id="logo" onclick="slowScroll('#top')">
+    <span>mzilinschii</span>
+    </div>
+    <div id="about">
+    <a href="#" title="Возможности" onclick="slowScroll('#main')">Возможности</a>
+    <a href="#" onclick="slowScroll('#overiew')" title="Преимущества">Преимущества</a>
+    <a href="#" onclick="slowScroll('#contacts')" title="Контакты">Контакты</a>
+    <a href="#" onclick="slowScroll('#faq')" title="Ответиы на вопросы">FAQ</a>
+    </div>
+    </header>
+
+    <div id="top">
+        <h1>Программирование</h1>
+        <h3>как способ жизни!</h3>    
+    </div>
+
+    <div id="main">
+        <div class="intro">
+            <h2>Наши услуги помогут вам!</h2>
+            <span>Большой выбор всего, что может вам пригодиться</span>
+        </div>
+        <div class="text">
+            <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+             Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure 
+             in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, 
+             sunt in culpa qui officia deserunt mollit anim id est laborum.</span>
+        </div>
+    </div>
+
+    <div id="overview">
+        <h2>Преимущества</h2>
+        <h4>с нами все проще</h4>
+        
+        <div class="img">
+            <img src="https://hi-tech.ua/wp-content/uploads/2021/07/adobe-premiere-pro-apple-m1.jpg" alt="">
+            <span>Уроки по Premiere Pro для начинающих</span>
+        </div>
+        <div class="img" alt="">
+        <img src="https://www.softkey.ua/upload/resize_cache/iblock/c6a/700_700_1/ps4.jpeg">
+            <span>Уроки по Photoshop для начинающих</span>
+        </div>
+    </div>
+
+    <div id="contacts">
+        <center><h5>Обратная связь</h5></center>
+        <form id="form_input">
+            <label for="name">Имя <span>*</span></label><br>
+            <input type="text" placeholder="Введите имя" name="name" id="name"><br>
+            <label for="email">Ваша почта <span>*</span></label><br>
+            <input type="email" placeholder="Введите email" name="email" id="email"><br>
+            <label for="message">Сообщение <span>*</span></label><br>
+            <textarea placeholder="Введите ваше сообщение" name="message" id="message"></textarea><br>
+            <div id="mess_send" class="btn">Отправить</div>
+        </form>
+    </div>
+
+    <div id="faq">
+        <div>
+            <span class="title">Оплата</span><br>
+            <span class="heading">Как будет проходить оплата</span>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, dolorum totam?
+            Rerum libero enim suscipit, totam labore vitae facere quia, vel praesentium sed aliquid ut
+            dolorem ipsum autem dolorum atque.</p>
+            <span class="heading">Как будет проходить оплата</span>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, dolorum totam?
+            Rerum libero enim suscipit, totam labore vitae facere quia, vel praesentium sed aliquid ut
+            dolorem ipsum autem dolorum atque.</p>
+            <span class="heading">Как будет проходить оплата</span>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, dolorum totam?
+            Rerum libero enim suscipit, totam labore vitae facere quia, vel praesentium sed aliquid ut
+            dolorem ipsum autem dolorum atque.</p>
+        </div>
+        <div>
+            <span class="title">Информация</span><br>
+            <span class="heading">Что входит в услуги сервиса</span>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, dolorum totam?
+                Rerum libero enim suscipit, totam labore vitae facere quia, vel praesentium sed aliquid ut
+                dolorem ipsum autem dolorum atque.</p>
+            <span class="heading">Что входит в услуги сервиса</span>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, dolorum totam?
+                Rerum libero enim suscipit, totam labore vitae facere quia, vel praesentium sed aliquid ut
+                dolorem ipsum autem dolorum atque.</p>
+            <span class="heading">Что входит в услуги сервиса</span>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, dolorum totam?
+                Rerum libero enim suscipit, totam labore vitae facere quia, vel praesentium sed aliquid ut
+                dolorem ipsum autem dolorum atque.</p>
+        </div>
+        <div>
+            <span class="title">Гарантии</span><br>
+            <span class="heading">Какие гарантии ести</span>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, dolorum totam?
+                Rerum libero enim suscipit, totam labore vitae facere quia, vel praesentium sed aliquid ut
+                dolorem ipsum autem dolorum atque.</p>
+            <span class="heading">Какие гарантии ести</span>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, dolorum totam?
+                Rerum libero enim suscipit, totam labore vitae facere quia, vel praesentium sed aliquid ut
+                dolorem ipsum autem dolorum atque.</p>
+            <span class="heading">Какие гарантии ести</span>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, dolorum totam?
+                Rerum libero enim suscipit, totam labore vitae facere quia, vel praesentium sed aliquid ut
+                dolorem ipsum autem dolorum atque.</p>
+        </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script>
+    function slowScroll(id) {
+        $('html, body').animate({
+            scrollTop: $(id).offset().top
+        }, 500)
+    }
+
+    $(document).on("scroll", function ()  {
+        if($(window).scrollTop() === 0)
+        $("header").removeClass("fixed");
+        else
+        $("header").attr("class", "fixed");
+    });
+    </script>
+</body>
+</html>
